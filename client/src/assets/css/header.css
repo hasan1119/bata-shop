@@ -1,0 +1,32 @@
+.navBar {
+  background-color: var(--primary);
+  color: #fff !important;
+}
+
+.navbar-nav a {
+  font-weight: bold !important;
+  color: #fff !important;
+}
+.navbar-nav a.current {
+  color: var(--secondary) !important;
+}
+.navbar-nav a button.login-button {
+  background: linear-gradient(
+    335.64deg,
+    #ff589b -19.22%,
+    #ff136f 118.87%
+  ) !important;
+  padding: 8px 25px !important;
+  color: #fff !important;
+  border-radius: 52px !important;
+  border: 0;
+}
+.ms-auto.navbar-nav {
+  align-items: center;
+}
+@media screen and (max-width: 992px) {
+  .ms-auto.navbar-nav {
+    margin: auto;
+    text-align: center;
+  }
+}

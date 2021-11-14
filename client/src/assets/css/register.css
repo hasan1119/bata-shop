@@ -1,0 +1,40 @@
+.register-page {
+  min-height: 100vh !important;
+  background-image: linear-gradient(#00000049, #0000006e),
+    url("./../images/login.jpg");
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.formContainer {
+  width: 100%;
+  max-width: 450px !important;
+}
+.registerForm input {
+  display: block;
+  margin: 20px 0;
+}
+
+.register-btn {
+  background: var(--secondary);
+  color: var(--text);
+  width: 100%;
+  margin-bottom: 10px;
+}
+.register-btn:hover {
+  color: var(--text);
+}
+
+.spinner-border {
+  height: 20px !important;
+  width: 20px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.private-spinner .spinner-border {
+  height: 200px !important;
+  width: 200px !important;
+}
